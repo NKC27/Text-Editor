@@ -3,7 +3,8 @@ const {
   warmStrategyCache
 } = require('workbox-recipes');
 const {
-  CacheFirst
+  CacheFirst,
+  StaleWhileRevalidate
 } = require('workbox-strategies');
 const {
   registerRoute
